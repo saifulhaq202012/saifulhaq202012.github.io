@@ -1,21 +1,41 @@
-*{margin: 0;padding: 0;}
+*{margin: 0; padding:0;}
 body{
   box-sizing: border-box;
 }
-a{text-decoration: none;}
-
 .container{
   width: 95%;
   display: block;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
+}
+.header-area{background: #3c5b9a;}
+
+.facebook-logo img{
+  width: 168px;
 }
 
-
-/* start header area */
-
-.header-area{
-  background: #3c5b9a;
-  padding:5px 0px;
+.facebook-logo{
   text-align: center;
+}
+.get-app{
+  overflow: hidden;
+  height: 150px;
+  width: 50%;
+  margin: auto;
+  display: block;
+  background: #fffbe2;
+  font-size: 18px;
+  color: #596e98;
+}
+.get-app img{
+  width: 20px;
+  float: left;
+  display: inline-block;
+}
+
+.get-app span{
+  margin-top: 5px;
+  margin-left:5px;
+  display: inline-block;
+
 }
