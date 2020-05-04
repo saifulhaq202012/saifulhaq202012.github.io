@@ -20,8 +20,7 @@ body{
 .get-app{
   overflow: hidden;
   height: 150px;
-  width: 50%;
-  margin: auto;
+  width:100%;
   display: block;
   background: #fffbe2;
   font-size: 18px;
